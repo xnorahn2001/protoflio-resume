@@ -1,0 +1,655 @@
+// هنا استخدمت المعادله او الطريقة الاساسية لانشاء هيكل الواجهة//
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اسم عنوان الصفحه او الواجهة الي تبونها </title>
+
+//الحين راح ابدا اسوي سايد بار ونوع هالسايدبار انه يكون حق معلومات مو مثل السايد بار الي نستخدمه بالعاده //
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+//هنا حددت نوعه //
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src=" رابط عنوان الصوره " alt="اسم الشخص او الصوره الي تبغون تحطونها هنا الفراغ الي قبل حطو رابط عنوان الصوره " width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="اسم الشخص الي بالسيرة">اي اسم يخطر ببالكم </h1>
+
+          <p class="نوع وظيفته او المسمى الوظيفي ">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>معلومات التواصل </span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline">الايميل</ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">xxxxxxxxx@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+966 00000000000</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p> //الميلاد//
+
+              <time datetime="1982-06-23">June 22, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p> // المكان//
+
+              <address> Saudi Arabia </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+//الصفحات والحسابات التواصل الاجتماعي  //
+<div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="حسابك لينكد ان " class="social-link"> لينكيد ان 
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="حسابك تويتر"social-link"> تويتر
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href=" حسابك قيتهوب " class="social-link">
+              <ion-icon name="logo-github"></ion-icon> قيتهوب
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button> السيرة
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button> الاعمال الي يشتغل عليها الشخص
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button> التواصل 
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+//المهارات او الخبرات الي يتمتع فيها الشخص //
+
+<article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2> نبذه
+        </header>
+
+        <section class="about-text">
+          <p>
+           النبذه
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Here some of My Software skills</h3> المهارات التقنية 
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box"> الاولى
+                <img src="https://icon-library.com/images/ux-design-icon/ux-design-icon-8.jpg" alt="design icon" width="80"height="70">
+              </div>
+
+              <div class="service-content-box">الثانيه
+                <h4 class="h4 service-item-title">UX/UI Design </h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box"> الثالثه
+                <img src="https://icons.veryicon.com/png/o/miscellaneous/20-classification-function-icon/8_3-front-end-development-1.png" alt="Web development icon" width="80"height="70">
+              </div>
+
+              <div class="service-content-box"> الرابعه
+                <h4 class="h4 service-item-title">FrontEnd</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box"> الخامسه
+                <img src="https://cdn-icons-png.flaticon.com/512/3668/3668474.png" alt="mobile app icon" width="80px"height="70">
+              </div>
+
+              <div class="service-content-box"> السادسه 
+                <h4 class="h4 service-item-title">BackEnd</h4>
+
+                <p class="service-item-text">
+                  Professional development with High Level of Languges
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box"> السابعه
+                <img src="https://cdn-icons-png.flaticon.com/512/9850/9850812.png" alt="camera icon" width="80 " height="70">
+              </div>
+
+              <div class="service-content-box"> الثامنه
+                <h4 class="h4 service-item-title">Databases</h4>
+
+                <p class="service-item-text">
+                    I am good at understanding the database, and I have worked on it,I also have some skills in SQL and Data Entry,I also have experience in Diagrams.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+//الخبرات برضو نفس الي فوق // 
+
+
+<section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Work-Experience</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Account Management</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Software Developer</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Software Development</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Technology Solutions</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Data Analysis</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>IT Operations</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+
+          </ul>
+
+
+
+
+
+        </section>
+
+
+//في السكشن هذا  اللغات والي تحته بيكون هن المؤهل العلمي والي يتميز فيه كاطالب او متخرج //
+
+<div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="https://yt3.googleusercontent.com/bCqQxWAkFgyZ8UmxM_DlBdVQP5L1qn4aKD9wvsw3zi-3hDO-aFNSkQbxBPR3hiw514fcCT-uow=s900-c-k-c0x00ffffff-no-rj" alt="Hail Health Cluster" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Hail Health Cluster</h4>
+
+              <time datetime="2023/2024/2022">Hail Health Cluster</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Programming Languges</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/c_original_logo_icon_146611.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://icn.lycee-valin.fr/projets2017/seconde13/eleve8/images/logo%20css.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Hail</h4>
+
+              <span>2013 — 2021</span>
+
+              <p class="timeline-text">
+                I graduated from the College of Computer Science and Engineering, specializing in software engineering
+              </p>
+
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school</h4>
+
+              <span>2010 — 2012</span> مجرد مثال 
+
+              <p class="timeline-text">
+                I graduated from high school with a grade point average of 98.95% in the scientific field وكم النسبه 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            </section>
+
+        <section class="skill"> المهارات 
+
+          <h3 class="h3 skills-title">skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Technology Proficiency</h5> مهارات جدا كثيره حاطتها كامثال 
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Time Management</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Analysis and Decision Making</h5>
+                <data value="90">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flexibility and Adaptability</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      //هنا بالضبط اي الاعمال تبع الشخص وش اشتغل فيها كامصمم كا مطور كامحلل كا مدخل بيانات وهكذا //
+
+<article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UX/UI Design </button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>FrontEnd</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>BackEnd</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          
+               
+        </section>
+
+      </article>
+
+
+    
+
+
+

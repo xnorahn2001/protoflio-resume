@@ -90,13 +90,6 @@
 }
 
 
-
-
-
-/*-----------------------------------*\
-#RESET
-\*-----------------------------------*/
-
 *, *::before, *::after {
 margin: 0;
 padding: 0;
@@ -135,13 +128,6 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
-
-
-
-/*-----------------------------------*\
-#REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -273,25 +259,12 @@ z-index: -1;
 
 
 
-
-
-/*-----------------------------------*\
-#MAIN
-\*-----------------------------------*/
-
 main {
 margin: 15px 12px;
 margin-bottom: 75px;
 min-width: 259px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-#SIDEBAR
-\*-----------------------------------*/
 
 .sidebar {
 margin-bottom: 15px;
@@ -426,13 +399,6 @@ font-size: 18px;
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
-
-
-
-/*-----------------------------------*\
-#NAVBAR
-\*-----------------------------------*/
-
 .navbar {
 position: fixed;
 bottom: 0;
@@ -467,12 +433,6 @@ transition: color var(--transition-1);
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
-
-
-
-/*-----------------------------------*\
-#ABOUT
-\*-----------------------------------*/
 
 .about .article-title { margin-bottom: 15px; }
 
@@ -737,12 +697,6 @@ transition: var(--transition-1);
 
 
 
-
-
-/*-----------------------------------*\
-#RESUME
-\*-----------------------------------*/
-
 .article-title { margin-bottom: 30px; }
 
 
@@ -845,14 +799,6 @@ background: var(--text-gradient-yellow);
 height: 100%;
 border-radius: inherit;
 }
-
-
-
-
-
-/*-----------------------------------*\
-#PORTFOLIO
-\*-----------------------------------*/
 
 .filter-list { display: none; }
 
@@ -1006,13 +952,6 @@ font-weight: var(--fw-300);
 }
 
 
-
-
-
-/*-----------------------------------*\
-#BLOG
-\*-----------------------------------*/
-
 .blog-posts { margin-bottom: 10px; }
 
 .blog-posts-list {
@@ -1092,14 +1031,6 @@ font-size: var(--fs-6);
 font-weight: var(--fw-300);
 line-height: 1.6;
 }
-
-
-
-
-
-/*-----------------------------------*\
-#CONTACT
-\*-----------------------------------*/
 
 .mapbox {
 position: relative;
@@ -1201,13 +1132,6 @@ cursor: not-allowed;
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
-
-
-
-/*-----------------------------------*\
-#RESPONSIVE
-\*-----------------------------------*/
-
 /**
 * responsive larger than 450px screen
 */
@@ -1222,50 +1146,7 @@ cursor: not-allowed;
 
 
 
-/**
- * #PORTFOLIO, BLOG 
- */
 
-.project-img,
-.blog-banner-box { height: auto; }
-
-}
-
-
-
-
-
-/**
-* responsive larger than 580px screen
-*/
-
-@media (min-width: 580px) {
-
-/**
- * CUSTOM PROPERTY
- */
-
-:root {
-
-  /**
-   * typography
-   */
-
-  --fs-1: 32px;
-  --fs-2: 24px;
-  --fs-3: 26px;
-  --fs-4: 18px;
-  --fs-6: 15px;
-  --fs-7: 15px;
-  --fs-8: 12px;
-
-}
-
-
-
-/**
- * #REUSED STYLE
- */
 
 .sidebar, article {
   width: 520px;
